@@ -1,5 +1,6 @@
 body{
     font-family: arial;
+    height: 100%;
 }
 .custom-section{
     text-align: center;
@@ -23,4 +24,12 @@ body{
 .actions button:hover{
     background: #fff;
     color: #35495e;
+}
+
+.navmenu-item {
+    text-decoration: none;
+}
+
+.navmenu-item:hover{
+    text-decoration: underline;
 }

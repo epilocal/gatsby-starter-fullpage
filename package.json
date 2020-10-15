@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
-  "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "name": "gatsby-starter-fullpage",
+  "private": false,
+  "description": "A starter to get you up and running on Gatsby using fullPage.js",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Epilocal <info@epilocal.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/epilocal/gatsby-starter-fullpage/issues"
   },
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.17",
@@ -27,7 +27,6 @@
     "gatsby-transformer-sharp": "^2.5.16",
     "prismjs": "^1.21.0",
     "react": "^16.12.0",
-    "react-color": "^2.18.1",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "typeface-merriweather": "0.0.72",
@@ -36,16 +35,11 @@
   "devDependencies": {
     "prettier": "2.1.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/epilocal/gatsby-starter-fullpage",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "fullPage"
   ],
-  "license": "0BSD",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
-  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
