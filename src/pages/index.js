@@ -22,7 +22,7 @@ const pluginWrapper = () => {
 
 const MainPage = ({ data, location }) => {
   //set original slide colors and function for picking new
-  const originalColors = ['#ff5f45', '#0798ec', '#fc6c7c'];
+  const originalColors = ['#ff5f45', '#0798ec', '#fc6c7c', '#0798ec'];
   const [sectionsColor, setSectionsColor] = useState(originalColors);
 
   //set original slide content and function for changing
@@ -36,12 +36,15 @@ const MainPage = ({ data, location }) => {
       },
       {
         text: 'Section 3',
+      },
+      {
+        text: 'Section 4',
       }
     ];
   const [fullPages, setFullPages] = useState(originalFullPages);
 
   //set original anchors and function for changing
-  const originalAnchors = ['page1', 'page2', 'page3'];
+  const originalAnchors = ['page1', 'page2', 'page3', 'page4'];
   const [anchors, setAnchors] = useState(originalAnchors);
 
   //set display color pickers to false by default
@@ -97,6 +100,8 @@ const MainPage = ({ data, location }) => {
       window.fullpage_api.moveSectionDown();
     }
   }
+
+
 
   const handleBackgroundColorChange = (color, event) => {
     if (typeof window !== `undefined`) {
@@ -168,6 +173,8 @@ const MainPage = ({ data, location }) => {
       <ReactFullpage
         // Required when using extensions
         pluginWrapper={pluginWrapper}
+
+        debug
 
         // fullpage options
         licenseKey={'YOUR_KEY_HERE'} // Get one from https://alvarotrigo.com/fullPage/pricing/
