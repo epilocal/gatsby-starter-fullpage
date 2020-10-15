@@ -1,5 +1,5 @@
 
-Unofficial Gatsby Starter for Fullpage.JS brought to you by the dev team at [Epilocal](https://www.epilocal.com/developers).
+Unofficial Gatsby Starter for fullPage.JS brought to you by the dev team at [Epilocal](https://www.epilocal.com/developers).
 
 
 ## License
@@ -24,7 +24,7 @@ If you are creating an open source application under a license compatible with t
 
     ```shell
     # create a new Gatsby site using the blog starter
-    gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
+    gatsby new fullpage-starter https://github.com/epilocal/gatsby-starter-fullpage
     ```
 
 1.  **Start developing.**
@@ -32,7 +32,7 @@ If you are creating an open source application under a license compatible with t
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-blog-starter/
+    cd fullpage-starter/
     gatsby develop
     ```
 
@@ -42,4 +42,4 @@ If you are creating an open source application under a license compatible with t
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
 
-    Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+    Open the `fullpage-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
